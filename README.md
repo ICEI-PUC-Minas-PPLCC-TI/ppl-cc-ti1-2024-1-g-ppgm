@@ -18,11 +18,11 @@ Diante da atual situação enfrentada pela nossa Atlética (Penguins), compreend
 
 ## Problema
 
-Como dito anteriormente, nosso problema é a falta de um portal exclusivo da atlética. Essa situação limita os Penguins, pois a falta da aplicação os limita na questão da comunicação com seus usuários.
+Como dito anteriormente, nosso problema é a falta de um portal exclusivo da atlética. Essa situação limita os membros, pois a falta da aplicação os limita na questão da comunicação com seus usuários.
 
 ## Objetivo
 
-Criar um portal exclusivo para atlética onde ela possa interagir com os visitantes do site, por meio da publicação de notícias e eventos, fotos e informações como horários de treino.
+Criar um portal exclusivo para atlética onde a mesma possa interagir com os visitantes do site, por meio da publicação de notícias e eventos, fotos e informações como horários de treino.
 
 ## Justificativa
 
@@ -30,7 +30,7 @@ O site exclusivo da atlética proporcionará à eles uma maior autonomia e conta
 
 ## Público-alvo
 
-O portal têm o objetivo de atender principalmente os alunos membros da atlética e os alunos que tem interesse em participar da mesma. Além disso, o portal estará ali para atender não somente essas pessoas, mas também possíveis visitantes do site que queiram saber sobre a atlética e seus eventos.
+O portal têm como objetivo atender principalmente os alunos membros da atlética e os alunos que tem interesse em participar da mesma. Além disso, atender possíveis visitantes do site que queiram saber sobre a atlética e seus eventos.
 
 # Especificações do projeto
 
