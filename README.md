@@ -1,18 +1,18 @@
-# Nome do projeto
+# Portal Atlética
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Diante da atual situação enfrentada pela nossa Atlética (Penguins), compreendemos a importância de possuir uma plataforma digital própria. Para atender a essa necessidade, tomamos a iniciativa de desenvolver uma aplicação web exclusiva, projetada para suprir todas as demandas dos Penguins de maneira eficaz e integrada. Este passo visa fortalecer nossa presença online, facilitando a comunicação, organização de eventos e acesso a informações relevantes para todos os membros da Atlética. Estamos comprometidos em proporcionar uma experiência digital completa e personalizada para nossa comunidade.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Gustavo Mariano Gomes Teixeira
+* Mateus Viana Maschietto
+* Paulo Filipe Ferreira
+* Pedro Leite Pereira
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Gustavo Henrique Borges Martins
+* Wesley Dias Maciel
 
 ## Instruções de utilização
 
