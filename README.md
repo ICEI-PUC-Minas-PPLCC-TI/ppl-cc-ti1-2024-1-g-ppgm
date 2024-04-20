@@ -14,6 +14,21 @@ Diante da atual situação enfrentada pela nossa Atlética (Penguins), compreend
 * Gustavo Henrique Borges Martins
 * Wesley Dias Maciel
 
-## Instruções de utilização
+## Contexto
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+### Problema
+
+Como dito anteriormente, nosso problema é a falta de um portal exclusivo da atlética onde ela possa se comunicar com os alunos.
+
+### Objetvo
+
+Criar um portal exclusivo pra atlética onde ela possa interagir com os visitantes do site, seja por meio da publicação de notícias e eventos, fotos e informações como horários de treino.
+
+### Justificativa
+
+O site exclusivo da atlética proporciona a eles uma maior autonomia e contato com seus visitantes. A atlética constantemente faz eventos e um portal ajudaria eles a dissiminar seus eventos.
+
+### Público-alvo
+
+O portal têm o objetivo de atender principalmente os alunos membros da atlética e os alunos que tem interesse em participar da mesma. Além disso, o portal estará ali para atender não somente essas pessoas, mas também possíveis visitantes do site que queiram saber sobre a atlética e seus eventos.
+ 
