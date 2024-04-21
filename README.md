@@ -58,45 +58,44 @@ Baseado na análise das personas foram encontradas as seguintes histórias de us
 
 ## Requisitos
 As tabelas abaixo mostram os requisitos funcionais e os requisitos não funcionais do projeto.
-
-### Requisitos Funcionais
 > [!NOTE]  
 > A prioridade está classificada de 1 à 4, sendo 1 a mais alta e 4 a mais baixa.
+
+### Requisitos Funcionais
 
 
 | Descrição do requisito | Prioridade |
 | --- | --- |
-| Criar uma sessão de cadastro | ALTA |
-| Permitir que qualquer usuário remova sua conta | ALTA |
-| Permitir que qualquer usuário atualize sua conta | ALTA |
-| Criar uma pagina de perfil | ALTA |
-| Permitir para qualquer usuário veja as notícias/eventos | ALTA |
-| Permitir que a diretoria publique um evento/notícia | ALTA |
-| Permitir que a diretoria remova um evento/notícia | ALTA |
-| Permitir que a diretoria atualize um evento/notícia | ALTA |
-| Permitir para qualquer usuário veja as horário de treino | ALTA |
-| Permitir que a diretoria publique um horário de treino | ALTA |
-| Permitir que a diretoria remova um horário de treino | ALTA |
-| Permitir que a diretoria atualize um horário de treino | ALTA |
-| Criar uma sessão de comunicação da atlética e os visitantes | MÉDIA |
-| Permitir para qualquer usuário veja as fotos publicadas | BAIXA |
-| Permitir que a diretoria publique fotos | BAIXA |
+| Criar uma sessão de cadastro | 1 |
+| Permitir que qualquer usuário remova sua conta | 1 |
+| Permitir que qualquer usuário atualize sua conta | 1 |
+| Permitir para qualquer usuário veja as horário de treino | 1 |
+| Permitir que a diretoria publique um horário de treino | 1 |
+| Permitir que a diretoria remova um horário de treino | 1 |
+| Permitir para qualquer usuário veja as notícias/eventos | 1 |
+| Permitir que a diretoria publique um evento/notícia | 1 |
+| Permitir que a diretoria remova um evento/notícia | 1 |
+| Criar uma pagina de perfil | 2 |
+| Criar uma sessão de comunicação da atlética e os visitantes | 3 |
+| Permitir para qualquer usuário veja as fotos publicadas | 3 |
+| Permitir que a diretoria publique fotos | 3 |
+| Permitir que a diretoria atualize um evento/notícia | 4 |
+| Permitir que a diretoria atualize um horário de treino | 4 |
 
 ### Requisitos Não-Funcionais
 
 | Descrição do requisito | Prioridade |
 | --- | --- |
-| O sistema deve ser intuitivo e de fácil compreensão | ALTA |
-| O sistema deve fazer autentificação do usuário | ALTA |
-| O sistema deve garantir que os usuários tenham permissões apropriadas aos recursos | ALTA |
-| O sistema deve ser responsivo e rodar em dispositivos móveis | MÉDIA |
-| O sistema deve ser de fácil manutenção | BAIXA |
+| O sistema deve fazer autentificação do usuário | 2 |
+| O sistema deve ser responsivo e rodar em dispositivos móveis | 2 |
 
 # Projeto de Interface
 
 ## Wireframes das telas
 > [!NOTE]
 > Link para o pdf com os protótipos: [protótipo](docs_readme/ninja_prototype.pdf)
+
+<br>
 
 <img src="docs_readme/ninja_register.jpg" alt="protótipo da página de registro" width="500px">
 
@@ -133,6 +132,10 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 > A imagem acima é o protótipo do fórum de dúvidas.
 
 ## Protótipo interativo
+Como o protótipo do iterativo foi feito no Figma, não teria como apresentar aqui. Dessa maneira, aqui está o link para o [Protótipo](https://www.figma.com/file/zSYWeK6wGW93dwyo1lBV2E/Cadastro?type=design&node-id=0%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1)
+
+> [!TIP]
+> O protótipo do Figma apresenta o fluxo de usuário.
 
 # Metodologia
 
@@ -149,10 +152,10 @@ Relação das ferramentas utilizadas pela equipe:
 
 | Ambiente | Plataforma | Link de acesso |
 | --- | --- | --- |
-| Design thinking | Miro | https://miro.com/app/board/uXjVKdTd7Eg=/ |
-| Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20241-3-ppgm |
-| Protótipo baixa fidelidade | Ninjamock | https://ninjamock.com/s/M1L8GLx |
-| Protótipo alta fidelidade | Figma | https://ninjamock.com/s/M1L8GLx |
+| Design thinking | Miro | [link](https://miro.com/app/board/uXjVKdTd7Eg=/) |
+| Repositório de código | GitHub | [link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20241-3-ppgm) |
+| Protótipo baixa fidelidade | Ninjamock | [link](https://ninjamock.com/s/M1L8GLx) |
+| Protótipo alta fidelidade | Figma | [link](https://www.figma.com/file/zSYWeK6wGW93dwyo1lBV2E/Cadastro?type=design&node-id=0%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1) |
 
 ## Quadro de Controle de tarefas
 Com o objetivo de ter uma maneiro de nos organizarmos, decidimos utilizar o quadro de controle de tarefas Kanban, que já tem o modelo pronto e disponível no Github Projects. Nosso ambiente de gestão de tarefas e dividid em 4 sessões:
