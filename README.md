@@ -61,7 +61,7 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 
 ### Requisitos Funcionais
 > [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+> A prioridade está classificada de 1 à 4, sendo 1 a mais alta e 4 a mais baixa.
 
 
 | Descrição do requisito | Prioridade |
@@ -97,6 +97,7 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 ## Fluxo de usuário
 
 ## Wireframes das telas
+[Protótipo de baixa fidelidade](docs_readme/ninja_prototype.pdf)
 
 ## Protótipo interativo
 
