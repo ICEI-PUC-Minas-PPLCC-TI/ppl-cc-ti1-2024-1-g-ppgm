@@ -49,11 +49,11 @@ Baseado na análise das personas foram encontradas as seguintes histórias de us
 | Membro da Diretoria | Publicar fotos dos eventos | Manter os site ativo para visitantes |
 | Membro da Diretoria | Uma área para comunicar com os visitantes | Manter interação com os visitantes |
 | Membro da Atlética | Visualizar os eventos da atlética | Participar |
-| Membro da Atlética | Visualizar os horários de treino | Para participar |
-| Membro da Atlética | Visualizar as fotos dos eventos | Para ver fotos minhas, caso eu tenha participado |
+| Membro da Atlética | Visualizar os horários de treino | Participar |
+| Membro da Atlética | Visualizar as fotos dos eventos | Ver fotos minhas, caso eu tenha participado |
 | Aluno da PUC | Visualizar os eventos da atlética | Participar |
-| Aluno da PUC | Visualizar os horários de treino | Para participar |
-| Aluno da PUC | Visualizar as fotos dos eventos | Para ver fotos minhas, caso eu tenha participado |
+| Aluno da PUC | Visualizar os horários de treino | Participar |
+| Aluno da PUC | Visualizar as fotos dos eventos | Ver fotos minhas, caso eu tenha participado |
 | Aluno da PUC | Uma área para comunicar com a atlética | Caso queira tirar dúvida ou comentar algo |
 
 ## Requisitos
