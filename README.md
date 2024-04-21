@@ -60,6 +60,9 @@ Baseado na análise das personas foram encontradas as seguintes histórias de us
 As tabelas abaixo mostram os requisitos funcionais e os requisitos não funcionais do projeto.
 
 ### Requisitos Funcionais
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
 
 | Descrição do requisito | Prioridade |
 | --- | --- |
@@ -88,4 +91,43 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 | O sistema deve garantir que os usuários tenham permissões apropriadas aos recursos | ALTA |
 | O sistema deve ser responsivo e rodar em dispositivos móveis | MÉDIA |
 | O sistema deve ser de fácil manutenção | BAIXA |
+
+# Projeto de Interface
+
+## Fluxo de usuário
+
+## Wireframes das telas
+
+## Protótipo interativo
+
+# Metodologia
+
+## Organização da equipe e divisão de papeis
+Nossa equipe está utilizando da metodologia ágil Scrum para desenvolver esse projeto, assim separamos as funçoes da seguinte maneira:
+
+* Mateus Viana Maschietto - `Scrum Master`
+* Gustavo Mariano Gomes Teixeira - `Product Owner`
+* Paulo Filipe Ferreira - `Developer`
+* Pedro Leite Pereira - `Developer`
+
+## Ferramentas
+Relação das ferramentas utilizadas pela equipe:
+
+| Ambiente | Plataforma | Link de acesso |
+| --- | --- | --- |
+| Design thinking | Miro | https://miro.com/app/board/uXjVKdTd7Eg=/ |
+| Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20241-3-ppgm |
+| Protótipo baixa fidelidade | Ninjamock | https://ninjamock.com/s/M1L8GLx |
+| Protótipo alta fidelidade | Figma | https://ninjamock.com/s/M1L8GLx |
+
+## Quadro de Controle de tarefas
+Com o objetivo de ter uma maneiro de nos organizarmos, decidimos utilizar o quadro de controle de tarefas Kanban, que já tem o modelo pronto e disponível no Github Projects. Nosso ambiente de gestão de tarefas e dividid em 4 sessões:
+
+**BackLog**
+> As funcionalidades que foram identificadas pela o PO e a equipe, solicitadas pelo cliente.
+
+**Reeady**
+> As funcionalidade que serão implementadas, nessa sprint
+
+Link para o project: [PPGM_project](https://github.com/orgs/ICEI-PUC-Minas-PPLCC-TI/projects/11/views/1)
 
