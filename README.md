@@ -94,10 +94,43 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 
 # Projeto de Interface
 
-## Fluxo de usuário
-
 ## Wireframes das telas
-[Protótipo de baixa fidelidade](docs_readme/ninja_prototype.pdf)
+> [!NOTE]
+> Link para o pdf com os protótipos: [protótipo](docs_readme/ninja_prototype.pdf)
+
+<img src="docs_readme/ninja_register.jpg" alt="protótipo da página de registro" width="500px">
+
+> A imagem acima é o protótipo da página de registro.
+
+<br>
+
+<img src="docs_readme/ninja_login.jpg" alt="protótipo da página de login" width="500px">
+
+> A imagem acima é o protótipo da página de login.
+
+<br>
+
+<img src="docs_readme/ninja_home.jpg" alt="protótipo da página home" width="500px">
+
+> A imagem acima é o protótipo da página de home.
+
+<br>
+
+<img src="docs_readme/ninja_perfil.jpg" alt="protótipo da página de perfil" width="500px">
+
+> A imagem acima é o protótipo da página de perfil.
+
+<br>
+
+<img src="docs_readme/ninja_eventos.jpg" alt="protótipo da página de eventos" width="500px">
+
+> A imagem acima é o protótipo da página de eventos.
+
+<br>
+
+<img src="docs_readme/ninja_forum.jpg" alt="protótipo do fórum de dúvidas" width="500px">
+
+> A imagem acima é o protótipo do fórum de dúvidas.
 
 ## Protótipo interativo
 
