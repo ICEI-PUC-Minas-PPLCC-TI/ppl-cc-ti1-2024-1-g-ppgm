@@ -33,6 +33,7 @@ Baseado em nossas entrevistas com alguns estudantes da PUC Minas, identificamos 
 Nosso portal visa atender os alunos da PUC Minas que fazem parte do ICEI (Instituto de Ciências Exatas e Informática), membros ou não membros da atlética Pinguins. Pelo fato de nosso público alvo estar fazendo graduação em uma faculdade particular, eles costumam estar na faixa etária de 19 à 25 anos e  costumam ter uma renda de uma família de classe média para cima.
 
 # Concepção (Design Thinking)
+
 O processo de concepção é composto por 3 partes, entendimento, exploração e materialização. A primeira parte de se trata do entendimento do que é o problema, para isso nós buscamos entender quais eram nossas dúvidas, certezas e suposições, buscamos as entidades influentes no nosso projeto. Além disso, fizemos entrevista para termos um embazamento do nosso público para, assim, montarmos nossa Persona(pessoa fictícia, ideal para o projeto).
 
 Na segunda parte, buscamos explorar nosso projeto. Nesse sentido, fizemos um Brainstorming para achar ideias que solucionassem os nosso problemas e após ulgumas votações selecionamos as ideias que seriam aplicadas e as priorizamos de acordo com o impacto e custo de cada uma delas.
@@ -100,6 +101,12 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 # Projeto de Interface
 
 ## Wireframes das telas
+
+## Fluxo de usuário
+O fluxo de usuário é uma técnica utilizada pelo desenvolvedor para mapear o fluxo de telas do site e as possíveis ações do usuário.
+
+<img src="docs_readme/user_flux.jpg" alt="fluxo de usuário" width="700px">
+
 > [!NOTE]
 > Link para o pdf com os protótipos: [protótipo](docs_readme/ninja_prototype.pdf).
 
