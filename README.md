@@ -32,6 +32,14 @@ Baseado em nossas entrevistas com alguns estudantes da PUC Minas, identificamos 
 
 Nosso portal visa atender os alunos da PUC Minas que fazem parte do ICEI (Instituto de Ciências Exatas e Informática), membros ou não membros da atlética Pinguins. Pelo fato de nosso público alvo estar fazendo graduação em uma faculdade particular, eles costumam estar na faixa etária de 19 à 25 anos e  costumam ter uma renda de uma família de classe média para cima.
 
+# Concepção (Design Thinking)
+O processo de concepção é composto por 3 partes, entendimento, exploração e materialização. A primeira parte de se trata do entendimento do que é o problema, para isso nós buscamos entender quais eram nossas dúvidas, certezas e suposições, buscamos as entidades influentes no nosso projeto. Além disso, fizemos entrevista para termos um embazamento do nosso público para, assim, montarmos nossa Persona(pessoa fictícia, ideal para o projeto).
+
+Na segunda parte, buscamos explorar nosso projeto. Nesse sentido, fizemos um Brainstorming para achar ideias que solucionassem os nosso problemas e após ulgumas votações selecionamos as ideias que seriam aplicadas e as priorizamos de acordo com o impacto e custo de cada uma delas.
+Por fim seguimos para parte de materialização, na qual desenvolvemos protótipos do nosso projeto, porém essa parte se encontra na sessão de [Projeto de interface](#projeto-de-interface).
+
+> [!IMPORTANT]
+> Esse arquivo e o resultado do nosso processo de concepção: [DesignThinking.pdf](docs_readme/DesignThinking.pdf).
 
 # Especificações do projeto
 
@@ -69,18 +77,18 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 | Criar uma sessão de cadastro | 1 |
 | Permitir que qualquer usuário remova sua conta | 1 |
 | Permitir que qualquer usuário atualize sua conta | 1 |
-| Permitir para qualquer usuário veja as horário de treino | 1 |
+| Permitir para qualquer usuário veja os horários de treino | 1 |
 | Permitir que a diretoria publique um horário de treino | 1 |
 | Permitir que a diretoria remova um horário de treino | 1 |
 | Permitir para qualquer usuário veja as notícias/eventos | 1 |
 | Permitir que a diretoria publique um evento/notícia | 1 |
 | Permitir que a diretoria remova um evento/notícia | 1 |
 | Criar uma pagina de perfil | 2 |
-| Criar uma sessão de comunicação da atlética e os visitantes | 3 |
-| Permitir para qualquer usuário veja as fotos publicadas | 3 |
-| Permitir que a diretoria publique fotos | 3 |
-| Permitir que a diretoria atualize um evento/notícia | 4 |
-| Permitir que a diretoria atualize um horário de treino | 4 |
+| Permitir que a diretoria atualize um evento/notícia | 3 |
+| Permitir que a diretoria atualize um horário de treino | 3 |
+| Criar uma sessão de comunicação da atlética e os visitantes | 4 |
+| Permitir para qualquer usuário veja as fotos publicadas | 4 |
+| Permitir que a diretoria publique fotos | 4 |
 
 ### Requisitos Não-Funcionais
 
@@ -93,7 +101,7 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 
 ## Wireframes das telas
 > [!NOTE]
-> Link para o pdf com os protótipos: [protótipo](docs_readme/ninja_prototype.pdf)
+> Link para o pdf com os protótipos: [protótipo](docs_readme/ninja_prototype.pdf).
 
 <br>
 
@@ -132,10 +140,10 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 > A imagem acima é o protótipo do fórum de dúvidas.
 
 ## Protótipo interativo
-Como o protótipo do iterativo foi feito no Figma, não teria como apresentar aqui. Dessa maneira, aqui está o link para o [Protótipo](https://www.figma.com/file/zSYWeK6wGW93dwyo1lBV2E/Cadastro?type=design&node-id=0%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1)
+Como o protótipo do iterativo foi feito no Figma, não teria como apresentar aqui. Dessa maneira, aqui está o link para o [protótipo](https://www.figma.com/file/zSYWeK6wGW93dwyo1lBV2E/Cadastro?type=design&node-id=0%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1)
 
 > [!TIP]
-> O protótipo do Figma apresenta o fluxo de usuário.
+> O protótipo interativo apresenta o fluxo de usuário.
 
 # Metodologia
 
@@ -161,10 +169,19 @@ Relação das ferramentas utilizadas pela equipe:
 Com o objetivo de ter uma maneiro de nos organizarmos, decidimos utilizar o quadro de controle de tarefas Kanban, que já tem o modelo pronto e disponível no Github Projects. Nosso ambiente de gestão de tarefas e dividid em 4 sessões:
 
 **BackLog**
-> As funcionalidades que foram identificadas pela o PO e a equipe, solicitadas pelo cliente.
+> As funcionalidades que foram identificadas pela o Product Owner e o Cliente, que serão feitas durante todo o projeto.
 
-**Reeady**
-> As funcionalidade que serão implementadas, nessa sprint
+**Ready**
+> As funcionalidades que serão implementadas, nessa sprint.
 
-Link para o project: [PPGM_project](https://github.com/orgs/ICEI-PUC-Minas-PPLCC-TI/projects/11/views/1)
+**In progress**
+> Essas são as funcionalidade que algum dos desenvolvedores ja começou a trabalhar.
+
+**In review**
+> Essas funcionalidades já foram implementadas e estão esperando uma avaliação para saber se ela vai acabar ou irá voltar e ser alterada.
+
+**Done**
+> As funcionalidades já foram implementadas e avaliadas, ou seja, foram finalizadas.
+
+Link para o o quadro de tarefas: [PPGM_project](https://github.com/orgs/ICEI-PUC-Minas-PPLCC-TI/projects/11/views/1)
 
