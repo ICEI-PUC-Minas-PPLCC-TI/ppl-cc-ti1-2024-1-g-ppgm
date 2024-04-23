@@ -192,3 +192,27 @@ Com o objetivo de ter uma maneiro de nos organizarmos, decidimos utilizar o quad
 
 Link para o o quadro de tarefas: [PPGM_project](https://github.com/orgs/ICEI-PUC-Minas-PPLCC-TI/projects/11/views/1)
 
+
+# Referências Bibliográficas
+
+
+OpenAI. GPT (Generative Pre-trained Transformer). Retrieved from [https://openai.com/gpt](https://openai.com/gpt)
+
+Figma. Figma. Retrieved from [https://www.figma.com/](https://www.figma.com/)
+
+GitHub. GitHub. Retrieved from [https://github.com/](https://github.com/)
+
+NinjaMock. NinjaMock. Retrieved from [https://ninjamock.com/](https://ninjamock.com/)
+
+MindMaster. Scrum: 11 passos essenciais. Retrieved from [https://mindmaster.com.br/scrum-11-passos/](https://mindmaster.com.br/scrum-11-passos/)
+
+Gabriel Sa e Farias. Fluxo de usuário (user flow): O que é e como fazer. Medium. Retrieved from [https://medium.com/](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
+
+Atlassian. Histórias de usuários com exemplos e template. Retrieved from [https://www.atlassian.com/](https://www.atlassian.com/br/agile/project-management/user-stories)
+
+Flammo. Persona e público-alvo: Qual a diferença? Retrieved from [https://flammo.com.br/](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
+
+Jader Bastista Favero. Como montar a justificativa do TCC. Guia da Monografia. Retrieved from [https://guiadamonografia.com.br/](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
+webtech-pucminas. GitHub Repository. Retrieved from [https://github.com/webtech-pucminas](https://github.com/webtech-pucminas)
+
