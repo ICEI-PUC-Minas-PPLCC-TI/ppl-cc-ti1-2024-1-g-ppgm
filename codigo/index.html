@@ -7,49 +7,9 @@
     <title>Pinguins</title>
 </head>
 <body>
-    <form id="login-form">
-        <img src="assets/img/logo.png" alt="Logo">
-        <h1>LOGIN</h1>
-        <div class="campo">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Email">
-        </div>
+    <a href="./pages/login.html">LOGIN</a>
 
-        <div class="campo">
-            <label for="password">Senha</label>
-            <input type="text" id="password" name="password" placeholder="Senha">
-        </div>
-
-        <button type="submit">LOGIN</button>
-        <a href="cadastro.html">Cadastre-se</a>
-    </form>
-
-    <script type="module" src="./assets/js/crudUser.js"></script>
-    <script src="./assets/js/login.js"></script>
-    <script>
-
-        // Declara uma função para processar o formulário de login
-        function processaFormLogin (event) {                
-                // Cancela a submissão do formulário para tratar sem fazer refresh da tela
-                event.preventDefault ();
-
-                // Obtem os dados de login e senha a partir do formulário de login
-                var email = document.getElementById('email').value;
-                var password = document.getElementById('password').value;
-
-                // Valida login e se estiver ok, redireciona para tela inicial da aplicação
-                var resultadoLogin = loginUser (email, password);
-                if (resultadoLogin) {
-                    window.location.href = 'logado.html';
-                }
-                else { // Se login falhou, avisa ao usuário
-                    alert ('Usuário ou senha incorretos');
-                }
-        }
-
-        // Associa a funçao processaFormLogin  formulário adicionado um manipulador do evento submit
-        document.getElementById ('login-form').addEventListener ('submit', processaFormLogin);     
-    </script>
+    <script type="module" src="./assets/js/main.js"></script>
 
 </body>
 </html>
