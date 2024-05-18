@@ -10,7 +10,8 @@ document.getElementById('login-form').addEventListener('submit', async (event) =
         const data = await read("User", email);
         if (password === data['password']) {
             console.log("Login Successful");
-            window.location.href = 'cadastro.html';
+            localStorage.setItem('token', email);
+            window.location.href = 'perfil.html';
         }
         else alert('Usuário ou senha incorretos');
 

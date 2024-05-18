@@ -46,16 +46,18 @@ export async function read(collection_name, id=null) {
 export async function update(collection_name, id, data) {
     if(!collectionExists(collection_name)) return false;
 
-    if(await existInCollection(collection_name, id)) {
-        const docPath = doc(database, collection_name + '/' + id);
+    try {
+        const docPath = doc(database, collection_name, id);
         await setDoc(docPath, data, { merge: true });
         return true;
     }
-    return false;
+    catch (error) {
+        console.error("Error updating document:", error);
+        return false;
+    }
 }
 
 export async function remove(collection_name, id) {
-    if(!collectionExists(collection_name)) return false;
 
     if(await existInCollection(collection_name, id)) {
         const docPath = doc(database, collection_name + '/' + id);
@@ -64,3 +66,4 @@ export async function remove(collection_name, id) {
     }
     return false;
 }
+

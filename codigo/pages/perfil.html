@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Perfil</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/perfil.css">
+</head>
+<body>
+   <div class="container">
+  <div class="header">
+    <h1>Perfil</h1>
+  </div>
+  <form id="survey-form">
+    <div class="form-input">
+      <div class="profile-image">
+        <!-- <img src="/ti-1-ppl-cc-m-20241-3-ppgm-mateus/codigo/assets/img/imagem perfil.png" alt="ícone"> -->
+      </div>
+      <div class="user-info">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" class="form-input-size" placeholder="" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-input-size" placeholder="">
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" class="form-input-size" placeholder="" required>
+        <label for="curso">Curso:</label>
+        <input id="curso" name="curso" class="form-input-size" placeholder="" required>
+       <div class="botões">
+        <input type="submit" value="Salvar">
+        <button type="button" id="Deletar">Deletar</button>
+      </div>
+        
+    </div>
+  </form>
+  <script type="module" src="../assets/js/perfil.js"></script>
+</div>
