@@ -67,3 +67,7 @@ export async function remove(collection_name, id) {
     return false;
 }
 
+export function getCollections() {
+    return Object.keys(rules);
+}
+
