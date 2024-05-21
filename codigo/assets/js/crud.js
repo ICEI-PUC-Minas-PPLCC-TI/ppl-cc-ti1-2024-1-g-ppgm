@@ -1,9 +1,14 @@
-import { doc, setDoc, getDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
+import { doc, setDoc, getDoc, deleteDoc, getDocs, collection } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
 import { database } from "./firebase.js"
 
-const rules = {
+export const rules = {
     "User": {
         id: 'email',
+        params: [
+            'name',
+            'curso',
+            'phone',
+        ]
     }
 }
 
@@ -36,6 +41,18 @@ export async function create(collection_name, data) {
 export async function read(collection_name, id=null) {
     if(!collectionExists(collection_name)) return null;
 
+    if(id == null) {
+        const colRef = collection(database, collection_name);
+        const querySnapshot = await getDocs(colRef);
+    
+        const items = [];
+        querySnapshot.forEach(doc => {
+            items.push({ id: doc.id, ...doc.data() });
+        });
+    
+        return items;
+    }
+
     const docPath = doc(database, collection_name + '/' + id);
     const snapShot = await getDoc(docPath);
     if(snapShot.exists()) return snapShot.data();
@@ -65,5 +82,9 @@ export async function remove(collection_name, id) {
         return true;
     }
     return false;
+}
+
+export function getCollections() {
+    return Object.keys(rules);
 }
 

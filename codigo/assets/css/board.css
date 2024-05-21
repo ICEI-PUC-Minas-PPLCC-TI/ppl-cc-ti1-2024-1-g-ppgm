@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    cursor: pointer;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+#main-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.open-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+}
+
+.open-btn:hover {
+    background-color: #444;
+}
+
+#collection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#collection-list {  
+    list-style-type: none;
+    width: 70%;
+}
+
+
+.collection-item {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.item-id {
+    margin-right: 10px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.edit-button, .delete-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.edit-button {
+    background-color: green;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    /* .collection-item {
+        flex-direction: column;
+    } */
+
+    .button-container {
+        margin-top: 5px;
+        justify-content: flex-start;
+    }
+
+    .edit-button, .delete-button {
+        margin-left: 0;
+        margin-right: 5px;
+    }
+}
