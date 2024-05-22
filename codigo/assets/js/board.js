@@ -42,7 +42,7 @@ function toggleSidebar(width) {
 
 function setItems() {
     document.querySelectorAll(".sidebar-item").forEach((item) => {
-    item.addEventListener('click', async (event) => {
+        item.addEventListener('click', async (event) => {
             const collectionDiv = document.getElementById('collection-list');
             document.getElementById('collection-title').textContent = item.textContent;
 
