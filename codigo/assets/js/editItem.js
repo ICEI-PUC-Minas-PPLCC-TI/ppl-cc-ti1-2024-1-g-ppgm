@@ -10,12 +10,28 @@ document.addEventListener('DOMContentLoaded', function() {
     const collectionName = getQueryParam('collection');
 
     if (itemId && collectionName) { 
-        setInputs(collectionName);
+        setInputs(collectionName, itemId);
         setValues(collectionName, itemId);
 
         document.getElementById('edit-form').addEventListener('submit', (e) => {
             e.preventDefault();
-            saveForm(collectionName, itemId);
+            saveForm(collectionName, itemId)
+                .then(() => {
+                    alert(`${itemId} foi atualizado.`);
+                    window.location.href = 'board.html';
+                })
+        })
+    }
+    else if(collectionName) {
+        setInputs(collectionName);
+
+        document.getElementById('edit-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            saveForm(collectionName, itemId)
+                .then(() => {
+                    alert(`Novo ${collectionName} adicionado.`);
+                    window.location.href = 'board.html';
+                })
         })
     }
     else {
@@ -23,25 +39,27 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 })
 
-function setInputs(collectionName) {
+function setInputs(collectionName, itemId=null) {
     rules[collectionName].params.forEach(element => {
-        const div = document.createElement('div');
-        div.classList.add('form-group');
+        if((element != rules[collectionName].id) || (itemId == null)) {
+            const div = document.createElement('div');
+            div.classList.add('form-group');
 
-        const label = document.createElement('label');
-        label.textContent = element;
-        label.for = element;
+            const label = document.createElement('label');
+            label.textContent = element;
+            label.for = element;
 
-        const input = document.createElement('input');
-        input.type = "text";
-        input.id = element;
-        input.name = element;
-        input.required = true;
+            const input = document.createElement('input');
+            input.type = "text";
+            input.id = element;
+            input.name = element;
+            input.required = true;
 
-        div.appendChild(label);
-        div.appendChild(input);
+            div.appendChild(label);
+            div.appendChild(input);
 
-        document.getElementById('input-list').appendChild(div);
+            document.getElementById('input-list').appendChild(div);
+        }
     });
 }
 
@@ -50,16 +68,27 @@ async function setValues(collectionName, itemId) {
         .then((item) => {
             document.getElementById('item-id').textContent = `ID: ${item[rules[collectionName].id]}`
             rules[collectionName].params.forEach(element => {
-                document.getElementById(element).value = item[element]; 
+                if(element != rules[collectionName].id) {
+                    document.getElementById(element).value = item[element]; 
+                }
             })
         })
 }
 
-async function saveForm(collectionName, itemId) {
+async function saveForm(collectionName, itemId=null) {
     var data = {}
     rules[collectionName].params.forEach(element => {
-        data[element] = document.getElementById(element).value;
+        if((element != rules[collectionName].id) || (itemId == null)) {
+            data[element] = document.getElementById(element).value;
+        }
     })
 
-    await update(collectionName, itemId, data);
+    if(itemId == null) {
+        itemId = data[rules[collectionName].id]
+    }
+
+    if(await update(collectionName, itemId, data)) {
+        return true;
+    }
+    return false;
 }

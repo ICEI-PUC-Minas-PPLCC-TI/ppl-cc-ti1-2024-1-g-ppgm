@@ -74,6 +74,9 @@ body {
 #collection-list {  
     list-style-type: none;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -116,9 +119,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    /* .collection-item {
+    .collection-item {
         flex-direction: column;
-    } */
+    }
 
     .button-container {
         margin-top: 5px;
