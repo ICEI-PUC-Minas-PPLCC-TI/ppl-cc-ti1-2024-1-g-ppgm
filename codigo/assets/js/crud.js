@@ -8,6 +8,7 @@ export const rules = {
             'name',
             'curso',
             'phone',
+            'email',
         ]
     }
 }

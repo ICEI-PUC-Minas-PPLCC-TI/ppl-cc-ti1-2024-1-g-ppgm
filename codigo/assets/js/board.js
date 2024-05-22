@@ -89,10 +89,19 @@ function setItems() {
                 .then((list) => {
                     collectionDiv.textContent = '';
 
+                    const addButton = document.createElement('button');
+                    addButton.innerHTML = '&plus;';
+                    addButton.classList.add('add-button');
+                    addButton.onclick = () => { 
+                        window.location.href = `editItem.html?collection=${event.target.textContent}`;
+                    }
+
                     list.forEach(item => {
                         const li = createListItem(item);
                         collectionDiv.appendChild(li);
                     });
+
+                    collectionDiv.appendChild(addButton);
                 })
         })
     })
