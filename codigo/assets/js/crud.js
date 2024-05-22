@@ -88,3 +88,10 @@ export function getCollections() {
     return Object.keys(rules);
 }
 
+export function getParams(collectionName) {
+    return rules[collectionName];
+}
+
+export function auth() {
+    return localStorage('token');
+}
