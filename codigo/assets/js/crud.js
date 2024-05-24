@@ -10,6 +10,16 @@ export const rules = {
             'phone',
             'email',
         ]
+    },
+    "Sport": {
+        id: 'name',
+        params: [
+            'name',
+            'date',
+            'start-time',
+            'end-time',
+            'local',
+        ]
     }
 }
 
@@ -91,6 +101,10 @@ export function getCollections() {
 
 export function getParams(collectionName) {
     return rules[collectionName];
+}
+
+export function getIdColletion(collection_name) {
+    return rules[collection_name].id;
 }
 
 export function auth() {
