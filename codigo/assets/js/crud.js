@@ -20,6 +20,14 @@ export const rules = {
             'end-time',
             'local',
         ]
+    },
+    "New": {
+        id: 'title',
+        params: [
+            'title',
+            'date',
+            'description'
+        ]
     }
 }
 
