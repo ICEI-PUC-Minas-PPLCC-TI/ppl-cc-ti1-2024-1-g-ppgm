@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #163092;
+}
+
+#card-container {
+    width: 70vw;
+}
+
+.card {
+    background-color: white;
+
+   padding: 10px;
+   width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+
+        
+    box-shadow: 5px 10px black;
+}
+
+.description {
+    text-align: right;
+}

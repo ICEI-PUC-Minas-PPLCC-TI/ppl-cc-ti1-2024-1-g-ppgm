@@ -101,7 +101,9 @@ function setItems() {
                         collectionDiv.appendChild(li);
                     });
 
-                    collectionDiv.appendChild(addButton);
+                    const collectionContainer = document.getElementById('add-button-wrapper');
+                    collectionContainer.innerHTML = '';
+                    collectionContainer.appendChild(addButton);
                 })
         })
     })
