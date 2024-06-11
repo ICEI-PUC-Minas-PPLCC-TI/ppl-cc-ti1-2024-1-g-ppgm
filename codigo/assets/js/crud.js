@@ -28,6 +28,14 @@ export const rules = {
             'date',
             'description'
         ]
+    },
+    "Events": {
+        id: 'title',
+        params: [
+            'title',
+            'date',
+            'description'
+        ]
     }
 }
 
@@ -116,5 +124,5 @@ export function getIdColletion(collection_name) {
 }
 
 export function auth() {
-    return localStorage('token');
+    return localStorage.getItem('token');
 }
