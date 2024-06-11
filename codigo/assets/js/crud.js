@@ -116,5 +116,5 @@ export function getIdColletion(collection_name) {
 }
 
 export function auth() {
-    return localStorage('token');
+    return localStorage.getItem('token');
 }
