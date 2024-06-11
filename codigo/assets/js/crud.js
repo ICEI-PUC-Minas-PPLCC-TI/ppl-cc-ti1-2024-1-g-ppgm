@@ -20,7 +20,15 @@ export const rules = {
             'end-time',
             'local',
         ]
-    }
+    },
+    "Question": {
+        id: 'question',
+        params: [
+            'question',
+            'user',
+            'date',
+        ]
+    },
 }
 
 async function collectionExists(collection_name) {
