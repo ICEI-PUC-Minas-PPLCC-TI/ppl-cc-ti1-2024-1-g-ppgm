@@ -20,10 +20,10 @@ window.addEventListener("load", loadHeader)
 
 const news = await read("New")
 
-news.forEach(item => {
+news.forEach((item, index) => {
     newsList.innerHTML += `
     <div class="new-card">
-    <img src="../assets/images/noticia3.jpg" alt="">
+    <img src="../assets/images/noticia${index + 1}.jpg" alt="">
     <div class="new-info">
     <time>${item.date}</time>
     <strong>${item.title}</strong>
