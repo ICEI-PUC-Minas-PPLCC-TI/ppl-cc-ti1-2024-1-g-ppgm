@@ -30,8 +30,9 @@ export const rules = {
         ]
     },
     "Events": {
-        id: 'title',
+        id: 'id',
         params: [
+            'id',
             'title',
             'date',
             'description'
