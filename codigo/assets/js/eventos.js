@@ -21,12 +21,13 @@ window.addEventListener("load", loadHeader)
 const news = await read("Events")
 console.log(news);
 
-news.forEach(item => {
+news.forEach((item, index) => {
     newsList.innerHTML += `
     <div class="event-card">
-    <img src="../assets/images/fundo.jpg" alt="">
+    <img src="../assets/images/evento ${index + 1}.png" alt="">
     <div class="event-info">
     <strong>${item.title}</strong>
+    <time>${item.date}</time>
     <p>${item.description}</p>
     </div>
     </div>

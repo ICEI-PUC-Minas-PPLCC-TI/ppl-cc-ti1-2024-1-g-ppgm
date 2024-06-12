@@ -112,7 +112,7 @@ main .eventos {
     gap: 10px;
 }
 
-.event-card strong, .event-card p {
+.event-card strong, .event-card p, .event-card time {
     background-color: #fff;
     border-radius: 16px;
     padding: 10px;
