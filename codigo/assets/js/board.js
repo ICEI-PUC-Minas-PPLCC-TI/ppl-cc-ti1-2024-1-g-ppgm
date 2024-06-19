@@ -1,6 +1,10 @@
-import { getCollections, read, remove, rules } from "./crud.js";
+import { getCollections, read, remove, rules, isMember } from "./crud.js";
 
 document.addEventListener('DOMContentLoaded', function() {
+    if(!isMember()) {
+        window.location.href = 'login.html'
+    }
+
     const openBtn = document.getElementById('open-btn');
     const closeBtn = document.getElementById('close-btn');
 

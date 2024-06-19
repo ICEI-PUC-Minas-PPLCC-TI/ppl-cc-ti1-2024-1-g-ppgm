@@ -9,6 +9,7 @@ export const rules = {
             'curso',
             'phone',
             'email',
+            'function',
         ]
     },
     "Sport": {
@@ -134,4 +135,8 @@ export function getIdColletion(collection_name) {
 
 export function auth() {
     return localStorage.getItem('token');
+}
+
+export function isMember() {
+    return localStorage.getItem('function') == 'Member';
 }
