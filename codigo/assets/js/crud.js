@@ -28,6 +28,15 @@ export const rules = {
             'date',
             'description'
         ]
+    },
+    "Events": {
+        id: 'id',
+        params: [
+            'id',
+            'title',
+            'date',
+            'description'
+        ]
     }
 }
 
