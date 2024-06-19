@@ -21,6 +21,14 @@ export const rules = {
             'local',
         ]
     },
+    "Question": {
+        id: 'question',
+        params: [
+            'question',
+            'user',
+            'date',
+        ]
+    },
     "New": {
         id: 'title',
         params: [

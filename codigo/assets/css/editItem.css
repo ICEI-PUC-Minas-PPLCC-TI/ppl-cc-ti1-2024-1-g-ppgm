@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background-color: #000312;
     color: #000;
     display: flex;
     justify-content: center;
@@ -10,6 +10,7 @@ body {
 }
 
 #edit-form {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,10 +47,14 @@ body {
 #input-list input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #000;
-    border-radius: 5px;
+
+    border: none;
+    box-shadow: 1px 1px rgba(128, 128, 128, 0.155);
+    border-radius: 10px;
     box-sizing: border-box;
     font-size: 0.9em;
+
+    background-color: #28282540;
 }
 
 #input-list input:focus {
@@ -73,5 +78,11 @@ body {
 }
 
 #item-id {
+    padding: 3px;
     font-weight: bold;
+
+    background-color: #000;
+    color: white;
+
+    border-radius: 10px;
 }
