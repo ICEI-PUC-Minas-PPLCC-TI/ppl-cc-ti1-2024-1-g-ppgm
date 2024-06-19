@@ -29,6 +29,23 @@ export const rules = {
             'date',
         ]
     },
+    "New": {
+        id: 'title',
+        params: [
+            'title',
+            'date',
+            'description'
+        ]
+    },
+    "Events": {
+        id: 'id',
+        params: [
+            'id',
+            'title',
+            'date',
+            'description'
+        ]
+    }
 }
 
 async function collectionExists(collection_name) {
@@ -116,5 +133,5 @@ export function getIdColletion(collection_name) {
 }
 
 export function auth() {
-    return localStorage('token');
+    return localStorage.getItem('token');
 }
