@@ -11,7 +11,7 @@ document.getElementById('login-form').addEventListener('submit', async (event) =
         if (password === data['password']) {
             console.log("Login Successful");
             localStorage.setItem('token', email);
-            window.location.href = 'perfil.html';
+            window.location.href = 'telahome.html';
         }
         else alert('Usuário ou senha incorretos');
 
