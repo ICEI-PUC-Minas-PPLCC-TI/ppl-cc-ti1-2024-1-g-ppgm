@@ -32,7 +32,6 @@ header {
     align-items: center;
     list-style: none;
     gap: 10px; /* Aumentando o espaçamento entre os itens do menu */
-    margin-top: 20px;
     flex-wrap: wrap;
 }
 
@@ -47,7 +46,7 @@ header {
 
 .botoes {
     display: flex;
-    flex-direction: column; /* Alterando a direção dos botões para uma coluna em telas menores */
+    flex-direction: row; /* Alterando a direção dos botões para uma coluna em telas menores */
     gap: 10px; /* Aumentando o espaçamento entre os botões */
 }
 
