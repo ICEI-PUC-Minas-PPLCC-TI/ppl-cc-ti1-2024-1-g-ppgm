@@ -1,18 +1,22 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const gallery = document.getElementById('image-gallery');
+const accessKey = 'BVuM7V7vvXmOBRbmvNLATyYagqcCZNh4_l0DyX0I3EY';
 
-    // Endpoint da API para imagens de treinos esportivos e festas
-    const apiUrl = 'https://api.unsplash.com/photos/random?count=10&query=sports,party&client_id=YOUR_UNSPLASH_ACCESS_KEY';
+async function fetchImages(query, containerId) {
+    const url = `https://api.unsplash.com/search/photos?query=${query}&client_id=${accessKey}`;
+    const response = await fetch(url);
+    const data = await response.json();
 
-    fetch(apiUrl)
-        .then(response => response.json())
-        .then(data => {
-            data.forEach(photo => {
-                const imgElement = document.createElement('img');
-                imgElement.src = photo.urls.regular;
-                imgElement.alt = photo.alt_description;
-                gallery.appendChild(imgElement);
-            });
-        })
-        .catch(error => console.log('Erro ao buscar imagens:', error));
+    const imagesContainer = document.getElementById(containerId);
+    imagesContainer.innerHTML = '';
+
+    data.results.forEach(image => {
+        const imgElement = document.createElement('div');
+        imgElement.classList.add('image-item');
+        imgElement.innerHTML = `<img src="${image.urls.small}" alt="${image.alt_description}">`;
+        imagesContainer.appendChild(imgElement);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetchImages('sports', 'sports-images');
+    fetchImages('party', 'party-images');
 });
