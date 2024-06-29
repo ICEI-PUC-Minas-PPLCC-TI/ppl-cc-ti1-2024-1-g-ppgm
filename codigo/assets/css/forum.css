@@ -1,18 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #163091; /* Fundo escuro */
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #fff; /* Texto branco */
 }
 
 header {
-    background-color: #333;
+    background-color: #163091;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
-
+img{
+background-color: #282828;
+border-radius: 50px;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -33,7 +36,7 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #282828; /* Fundo escuro levemente mais claro */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -42,7 +45,7 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #fff;
     margin-bottom: 1rem;
 }
 
@@ -54,19 +57,22 @@ form {
 
 label {
     font-weight: bold;
+    color: #fff; /* Labels em branco */
 }
 
 input,
 textarea {
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #fff; /* Borda branca */
     border-radius: 4px;
     font-size: 1rem;
+    color: #fff; /* Texto branco */
+    background-color: #282828; /* Fundo escuro levemente mais claro */
 }
 
 button {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #007bff; /* Azul padrão */
+    color: #fff; /* Texto branco */
     border: none;
     padding: 0.8rem 1.5rem;
     border-radius: 4px;
@@ -75,23 +81,25 @@ button {
 }
 
 footer {
-    background-color: #333;
+    background-color: #163091;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
-
+main{
+    border-radius: 50px;
+}
 .login {
-    background-color: #f0f0f0;
+    background-color: #163091; /* Fundo escuro levemente mais claro */
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .forum {
-    background-color: #f0f0f0;
+    background-color: #282828; /* Fundo escuro levemente mais claro */
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 50px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
