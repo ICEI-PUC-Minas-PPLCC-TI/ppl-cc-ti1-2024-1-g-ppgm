@@ -28,6 +28,15 @@ export const rules = {
             'date',
             'description'
         ]
+    },
+    "Question":{
+        id:'title',
+        params:[
+            'title',
+            'question',
+            'date',
+            'user'
+        ]
     }
 }
 
@@ -116,5 +125,6 @@ export function getIdColletion(collection_name) {
 }
 
 export function auth() {
-    return localStorage('token');
+
+    return localStorage.getItem('token');
 }
