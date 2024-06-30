@@ -130,3 +130,40 @@ article .new-card {
     max-width:800px;
     margin: 50px auto;
 }
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.deslogar{
+    background-color: #fff;
+    color: #0D101E;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+}
+
+/* Adicione esta regra para alterar a cor dos botões do carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    color: #000; /* Cor dos ícones */
+}
+
+/* Modifique a cor do ícone do próximo e do anterior */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; /* Cor de fundo dos ícones */
+}
+
+/* Se necessário ajuste o tamanho e o espaçamento dos botões */
+.carousel-control-prev {
+    left: -40px; /* Ajuste a posição do botão esquerdo */
+}
+
+.carousel-control-next {
+    right: -40px; /* Ajuste a posição do botão direito */
+}
