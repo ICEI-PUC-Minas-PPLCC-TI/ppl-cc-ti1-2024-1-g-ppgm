@@ -37,6 +37,12 @@ export const rules = {
             'date',
             'user'
         ]
+    },
+    "Answer":{
+        id:'title',
+        params:[
+            'answer'
+        ]
     }
 }
 
