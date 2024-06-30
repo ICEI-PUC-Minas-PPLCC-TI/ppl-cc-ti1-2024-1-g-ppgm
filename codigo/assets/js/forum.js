@@ -1,5 +1,8 @@
 // Login 
 import {create, auth} from "./crud.js"
+import {auth, isMember} from "./crud.js"
+const accessKey = 'BVuM7V7vvXmOBRbmvNLATyYagqcCZNh4_l0DyX0I3EY';
+const user = auth()
 
 const newQuestionForm = document.getElementById('newQuestionForm');
 newQuestionForm.addEventListener('submit', (event) => {
