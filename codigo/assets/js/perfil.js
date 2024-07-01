@@ -1,4 +1,8 @@
-import { read, update, remove } from '../js/crud.js'
+<<<<<<< Updated upstream
+import { read, update, remove,} from '../js/crud.js'
+=======
+import {read, update, remove, } from '../js/crud.js'
+>>>>>>> Stashed changes
 
 const user_id = localStorage.getItem('token');
 if(user_id === null) {

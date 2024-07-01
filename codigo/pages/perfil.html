@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="../assets/css/perfil.css">
 </head>
 <body>
+  <header>
+    <div class="nav-caixa">
+        <a href="telahome.html"><img src="../assets/images/logo.png" alt="logo"></a>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="modalidades.html">Modalidades</a></li>
+                <li><a href="forum.html">Fórum</a></li>
+                <li><a href="album.html">Álbum</a></li>
+                <li><a id="board" href="board.html">Board</a></li>
+                <div class="wrap"> 
+                    <div id="botoes" class="botoes">
+                        <a href="login.html">Fazer login</a>
+                        <a href="cadastro.html">Cadastre-se</a>
+                    </div>
+            </ul>
+        </nav>
+    </div>
+   
+        
+        <a id="deslogar" class="deslogar" href="#">Logout</a>
+    </div>
+</header>
    <div class="container">
   <div class="header">
     <h1>Perfil</h1>
@@ -15,7 +38,6 @@
   <form id="survey-form">
     <div class="form-input">
       <div class="profile-image">
-        <!-- <img src="/ti-1-ppl-cc-m-20241-3-ppgm-mateus/codigo/assets/img/imagem perfil.png" alt="ícone"> -->
       </div>
       <div class="user-info">
         <label for="name">Nome:</label>
@@ -33,5 +55,6 @@
         
     </div>
   </form>
+  <script type="module" src="../assets/js/auth.js"></script>
   <script type="module" src="../assets/js/perfil.js"></script>
 </div>

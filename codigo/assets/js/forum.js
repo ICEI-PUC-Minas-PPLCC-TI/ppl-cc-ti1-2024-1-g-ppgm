@@ -1,30 +1,43 @@
-import { read } from '../js/crud.js'
+// Login 
+import {create, auth} from "./crud.js"
+import {auth, isMember} from "./crud.js"
+const accessKey = 'BVuM7V7vvXmOBRbmvNLATyYagqcCZNh4_l0DyX0I3EY';
+const user = auth()
 
-document.addEventListener('DOMContentLoaded', async function() {
-    await read("Question")
-        .then((questions) => {
-            const cardContainer = document.getElementById('card-container');
+const newQuestionForm = document.getElementById('newQuestionForm');
+newQuestionForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    
+    const questionTitle = document.getElementById('question-title').value;
+    const questionContent = document.getElementById('question-content').value;
+    console.log(`Nova pergunta: ${questionTitle} - ${questionContent}`);
+   
+    const informaçao = { 
+        'title': questionTitle,
+        'question': questionContent,
+        'user': auth(),
+        
+    };
+    create ('Question', informaçao) 
+   
+   
+    document.getElementById('question-title').value = '';
+    document.getElementById('question-content').value = '';
+});
 
-            questions.forEach(question => {
-                var card = createForumCard(question);
-                cardContainer.appendChild(card);
-            });
-        })
-})
 
-function createForumCard(_info) {
-    const card = document.createElement('div');
-    card.classList.add('card');
+const forumContainer = document.getElementById('forum-container');
 
-    const question = document.createElement('p');
-    question.classList.add('question');
-    question.textContent = _info.question;
-    card.appendChild(question);
-
-    const description = document.createElement('p');
-    description.classList.add('description');
-    description.textContent = _info.user + ' * ' + _info.date;
-    card.appendChild(description);
-
-    return card;
+function addQuestion(title, content) {
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'question';
+    questionDiv.innerHTML = `
+        <h3>${title}</h3>
+        <p>${content}</p>
+    `;
+    forumContainer.appendChild(questionDiv);
 }
+
+// Perguntas de exemplo
+addQuestion('Como faço para me inscrever na Atlética?', 'Gostaria de saber quais os requisitos para me inscrever.');
+addQuestion('Qual o calendário de eventos da Atlética?', 'Preciso saber quais os eventos que acontecerão este semestre.');

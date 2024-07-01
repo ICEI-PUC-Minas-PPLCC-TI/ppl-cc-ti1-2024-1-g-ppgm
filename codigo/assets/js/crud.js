@@ -39,6 +39,15 @@ export const rules = {
             'description'
         ]
     },
+    "Question":{
+        id:'title',
+        params:[
+            'title',
+            'question',
+            'date',
+            'user'
+        ]
+    },
     "Events": {
         id: 'id',
         params: [
