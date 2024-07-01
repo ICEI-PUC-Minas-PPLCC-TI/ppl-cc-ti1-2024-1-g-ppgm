@@ -1,4 +1,4 @@
-import { rules, read, update } from '../js/crud.js'
+import { rules, read, update, convertImageToBase64 } from '../js/crud.js'
 
 document.addEventListener('DOMContentLoaded', function() {
     const getQueryParam = (param) => {
@@ -41,6 +41,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function setInputs(collectionName, itemId=null) {
     rules[collectionName].params.forEach(element => {
+        if(element == 'pic') {
+            const img = document.createElement('img');
+            img.id = 'pic-pic';
+            document.getElementById('input-list').appendChild(img);
+        }
         if((element != rules[collectionName].id) || (itemId == null)) {
             const div = document.createElement('div');
             div.classList.add('form-group');
@@ -50,10 +55,10 @@ function setInputs(collectionName, itemId=null) {
             label.for = element;
 
             const input = document.createElement('input');
-            input.type = "text";
+            input.type = element != 'pic' ? 'text': 'file';
             input.id = element;
             input.name = element;
-            input.required = true;
+            input.required = element != 'pic'? true : false;
 
             div.appendChild(label);
             div.appendChild(input);
@@ -67,8 +72,12 @@ async function setValues(collectionName, itemId) {
     await read(collectionName, itemId)
         .then((item) => {
             document.getElementById('item-id').textContent = `ID: ${item[rules[collectionName].id]}`
-            rules[collectionName].params.forEach(element => {
-                if(element != rules[collectionName].id) {
+            rules[collectionName].params.forEach(async element => {
+                if(element == 'pic') {
+                    const src = await read('Image', itemId);
+                    document.getElementById('pic-pic').src = src.base64; 
+                }
+                else if(element != rules[collectionName].id) {
                     document.getElementById(element).value = item[element]; 
                 }
             })
@@ -77,8 +86,21 @@ async function setValues(collectionName, itemId) {
 
 async function saveForm(collectionName, itemId=null) {
     var data = {}
-    rules[collectionName].params.forEach(element => {
-        if((element != rules[collectionName].id) || (itemId == null)) {
+    rules[collectionName].params.forEach(async element => {
+        if(element == 'pic') {
+            var id = null
+            if(itemId == null) {
+                id = data[rules[collectionName].id]
+            }
+            else {
+                id = itemId
+            }
+
+            var imageFile = document.getElementById('pic').files[0]
+            var imageData = await convertImageToBase64(imageFile);
+            update('Image', id, {'base64': imageData})
+        }
+        else if((element != rules[collectionName].id) || (itemId == null)) {
             data[element] = document.getElementById(element).value;
         }
     })
