@@ -16,21 +16,21 @@
             <a href="telahome.html"><img src="../assets/images/logo.png" alt="logo"></a>
             <nav class="navegacao">
                 <ul>
-                    <li>
-                        <a href="eventos.html">Eventos</a>
-                    </li>
-                    <li>
-                        <a href="modalidades.html">Modalidades</a>
-                    </li>
-                    <li>
-                        <a href="forum.html">Fórum</a>
-                    </li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="modalidades.html">Modalidades</a></li>
+                    <li><a href="forum.html">Fórum</a></li>
+                    <li><a href="album.html">Álbum</a></li>
+                    <li><a id="board" href="board.html">Board</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="botoes">
-            <a href="login.html">Fazer login</a>
-            <a href="cadastro.html">Cadastre-se</a>
+        <div class="wrap"> 
+            <div id="botoes" class="botoes">
+                <a href="login.html">Fazer login</a>
+                <a href="cadastro.html">Cadastre-se</a>
+            </div>
+            
+            <a id="deslogar" class="deslogar" href="#">Logout</a>
         </div>
     </header>
     <main>
@@ -76,6 +76,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script type="module" src="/codigo/assets/js/auth.js"></script>
     <script type="module" src="/codigo/assets/js/telahome.js"></script>
 </body>
 </html>
