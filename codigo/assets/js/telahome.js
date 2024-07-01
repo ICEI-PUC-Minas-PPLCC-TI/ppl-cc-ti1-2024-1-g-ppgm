@@ -21,9 +21,11 @@ window.addEventListener("load", loadHeader)
 const news = await read("New")
 
 news.forEach((item, index) => {
+    const image = read('Image', item.id)
+    const src = image.src
     newsList.innerHTML += `
     <div class="new-card">
-    <img src="../assets/images/noticia${index + 1}.jpg" alt="">
+    <img src="${src}" alt="">
     <div class="new-info">
     <time>${item.date}</time>
     <strong>${item.title}</strong>
