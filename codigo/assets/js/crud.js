@@ -46,6 +46,8 @@ export const rules = {
         id:'title',
         params:[
             'answer'
+        ]
+    },
     "Events": {
         id: 'id',
         params: [
