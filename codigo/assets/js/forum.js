@@ -1,5 +1,8 @@
 // Login 
 import {create, auth} from "./crud.js"
+import {auth, isMember} from "./crud.js"
+const accessKey = 'BVuM7V7vvXmOBRbmvNLATyYagqcCZNh4_l0DyX0I3EY';
+const user = auth()
 
 const newQuestionForm = document.getElementById('newQuestionForm');
 newQuestionForm.addEventListener('submit', (event) => {
@@ -38,4 +41,3 @@ function addQuestion(title, content) {
 // Perguntas de exemplo
 addQuestion('Como faço para me inscrever na Atlética?', 'Gostaria de saber quais os requisitos para me inscrever.');
 addQuestion('Qual o calendário de eventos da Atlética?', 'Preciso saber quais os eventos que acontecerão este semestre.');
-

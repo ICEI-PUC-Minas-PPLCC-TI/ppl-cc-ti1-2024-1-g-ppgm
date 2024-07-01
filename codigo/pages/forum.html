@@ -8,17 +8,26 @@
 </head>
 <body>
     <header>
-        <div class="img">
-            <img src="/codigo/assets/images/logo.png" alt="" style="width: 200px;height: 200px;">
+        <div class="nav-caixa">
+            <a href="telahome.html"><img src="../assets/images/logo.png" alt="logo"></a>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="modalidades.html">Modalidades</a></li>
+                    <li><a href="forum.html">Fórum</a></li>
+                    <li><a href="album.html">Álbum</a></li>
+                    <li><a id="board" href="board.html">Board</a></li>
+                </ul>
+            </nav>
         </div>
-        <h1>Fórum da Atlética</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Perguntas</a></li>
-                <li><a href="#">Sobre</a></li>
-            </ul>
-        </nav>
+        <div class="wrap"> 
+            <div id="botoes" class="botoes">
+                <a href="login.html">Fazer login</a>
+                <a href="cadastro.html">Cadastre-se</a>
+            </div>
+            
+            <a id="deslogar" class="deslogar" href="#">Logout</a>
+        </div>
     </header>
 
     <main>
@@ -47,7 +56,6 @@
     <footer>
         <p>&copy; 2024 Atlética - Todos os direitos reservados</p>
     </footer>
-
+    <script type="module" src="/codigo/assets/js/auth.js"></script>
     <script type="module" src="/codigo/assets/js/forum.js"></script>
 </body>
-</html>
