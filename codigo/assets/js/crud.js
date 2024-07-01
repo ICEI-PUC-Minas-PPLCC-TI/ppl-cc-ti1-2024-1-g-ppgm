@@ -46,6 +46,8 @@ export const rules = {
             'question',
             'date',
             'user'
+        ]
+    },
     "Events": {
         id: 'id',
         params: [
