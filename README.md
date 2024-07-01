@@ -6,7 +6,7 @@ Diante da atual situação enfrentada pela nossa Atlética (Pinguins), compreend
 
 * Gustavo Mariano Gomes Teixeira
 * Mateus Viana Maschietto
-* Paulo Filipe Ferreira
+* Davi Godoi Grilo
 * Pedro Leite Pereira
 
 ## Professores responsáveis
@@ -171,6 +171,8 @@ Relação das ferramentas utilizadas pela equipe:
 | Repositório de código | GitHub | [link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20241-3-ppgm) |
 | Protótipo baixa fidelidade | Ninjamock | [link](https://ninjamock.com/s/M1L8GLx) |
 | Protótipo alta fidelidade | Figma | [link](https://www.figma.com/file/zSYWeK6wGW93dwyo1lBV2E/Cadastro?type=design&node-id=0%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1) |
+| Banco de dados | Firebase | [link](https://firebase.google.com) |
+| Link para aplicação | Site Pinguins | [link](https://icei-puc-minas-pplcc-ti.github.io/ti-1-ppl-cc-m-20241-3-ppgm/codigo/) |
 
 ## Quadro de Controle de tarefas
 Com o objetivo de ter uma maneiro de nos organizarmos, decidimos utilizar o quadro de controle de tarefas Kanban, que já tem o modelo pronto e disponível no Github Projects. Nosso ambiente de gestão de tarefas e dividid em 4 sessões:
@@ -191,6 +193,30 @@ Com o objetivo de ter uma maneiro de nos organizarmos, decidimos utilizar o quad
 > As funcionalidades já foram implementadas e avaliadas, ou seja, foram finalizadas.
 
 Link para o o quadro de tarefas: [PPGM_project](https://github.com/orgs/ICEI-PUC-Minas-PPLCC-TI/projects/11/views/1)
+
+
+## Atribuições de tarefas
+
+### Mateus Viana Maschietto
+- Fazer CRUD modularizado para salvar as informações do site, usando firebase.
+- Fazer a autentificação e autorização de acordo com nível de autoridade no site.
+- Fazer o board de controle do banco de dados da atlica, seja para remover adicionar ou alterar.
+- Fazer banco de imagens, para permitir aos usuários salvarem fotos.
+
+### Davi Godoi Grilo
+- Fazer página de perfil para os usuários.
+- Fazer o forúm para permitir a interação entre os usuários e memboros da atlética.
+- Fazer a página de modalidades, onde os usuários poderam ver os horários de treino.
+
+### Gustavo Mariano Gomes Teixeira
+- Fazer a página de login, para autentificação de usuário.
+- Fazer a página álbum, onde as pessoas podem adicionar fotos dos eventos da atlética.
+- Fazer tela home, página principal do site onde terão as últimas notícias da atlética.
+
+### Pedro Leite Pereira
+- Fazer a página de cadastro, para a criação de usuários.
+- Fazer a página de eventos, onde a atlética publicaram seus eventos.
+- Fazer o forúm para permitir a interação entre os usuários e memboros da atlética.
 
 
 # Referências Bibliográficas

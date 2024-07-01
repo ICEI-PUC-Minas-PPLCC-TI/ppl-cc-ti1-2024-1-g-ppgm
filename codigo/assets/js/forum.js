@@ -41,4 +41,3 @@ function addQuestion(title, content) {
 // Perguntas de exemplo
 addQuestion('Como faço para me inscrever na Atlética?', 'Gostaria de saber quais os requisitos para me inscrever.');
 addQuestion('Qual o calendário de eventos da Atlética?', 'Preciso saber quais os eventos que acontecerão este semestre.');
-
