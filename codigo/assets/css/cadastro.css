@@ -29,7 +29,8 @@ body {
 .container form {
     background-color: whitesmoke;
     border-radius: 20px 0 0 20px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     padding: 20px;
 }
 
@@ -97,4 +98,20 @@ button:hover {
 
 .message.error {
     background-color: #dc3545;
+}
+
+@media screen and (max-width: 768px) {
+    .img {
+        display: none;
+    }
+
+    .container {
+        border: 0;
+    }
+
+    .container form {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 20px;
+    }
 }

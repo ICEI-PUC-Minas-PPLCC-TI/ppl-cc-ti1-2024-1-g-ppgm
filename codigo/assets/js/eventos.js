@@ -19,7 +19,6 @@ window.addEventListener("load", loadHeader)
 
 
 const news = await read("Events")
-console.log(news);
 
 news.forEach((item, index) => {
     newsList.innerHTML += `
