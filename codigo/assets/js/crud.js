@@ -5,10 +5,12 @@ export const rules = {
     "User": {
         id: 'email',
         params: [
+            'pic',
             'name',
             'curso',
             'phone',
             'email',
+            'function',
         ]
     },
     "Sport": {
@@ -21,6 +23,14 @@ export const rules = {
             'local',
         ]
     },
+    "Question": {
+        id: 'question',
+        params: [
+            'question',
+            'user',
+            'date',
+        ]
+    },
     "New": {
         id: 'title',
         params: [
@@ -29,6 +39,13 @@ export const rules = {
             'description'
         ]
     },
+    "Question":{
+        id:'title',
+        params:[
+            'title',
+            'question',
+            'date',
+            'user'
     "Events": {
         id: 'id',
         params: [
@@ -36,6 +53,12 @@ export const rules = {
             'title',
             'date',
             'description'
+        ]
+    },
+    "Image": {
+        id: 'user',
+        params: [
+            'base64',
         ]
     }
 }
@@ -90,7 +113,6 @@ export async function read(collection_name, id=null) {
 
 export async function update(collection_name, id, data) {
     if(!collectionExists(collection_name)) return false;
-
     try {
         const docPath = doc(database, collection_name, id);
         await setDoc(docPath, data, { merge: true });
@@ -126,4 +148,17 @@ export function getIdColletion(collection_name) {
 
 export function auth() {
     return localStorage.getItem('token');
+}
+
+export function isMember() {
+    return localStorage.getItem('function') == 'Member';
+}
+
+export function convertImageToBase64(file) {
+    return new Promise((resolve, reject) => {
+        var reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+        reader.readAsDataURL(file);
+    });
 }

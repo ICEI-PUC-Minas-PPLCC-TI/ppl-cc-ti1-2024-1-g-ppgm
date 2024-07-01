@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórum da Atlética</title>
+    <link rel="stylesheet" href="/codigo/assets/css/forum.css">
+</head>
+<body>
+    <header>
+        <div class="nav-caixa">
+            <a href="telahome.html"><img src="../assets/images/logo.png" alt="logo"></a>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="modalidades.html">Modalidades</a></li>
+                    <li><a href="forum.html">Fórum</a></li>
+                    <li><a href="album.html">Álbum</a></li>
+                    <li><a id="board" href="board.html">Board</a></li>
+                    <div class="wrap"> 
+                        <div id="botoes" class="botoes">
+                            <a href="login.html">Fazer login</a>
+                            <a href="cadastro.html">Cadastre-se</a>
+                        </div>
+                </ul>
+            </nav>
+        </div>
+       
+            
+            <a id="deslogar" class="deslogar" href="#">Logout</a>
+        
+        <div class="img">
+            <img src="/codigo/assets/images/logo.png" alt="" style="width: 200px;height: 200px;">
+        </div>
+    </header>
+
+    <main>
+
+
+        <section class="forum">
+            <h2>Perguntas e Respostas</h2>
+            <div id="forum-container">
+                <!-- Perguntas -->
+            </div>
+            <form id="newQuestionForm">
+                <h3>Nova Pergunta</h3>
+                <div>
+                    <label for="question-title">Título da Pergunta:</label>
+                    <input type="text" id="question-title" name="question-title" required>
+                </div>
+                <div>
+                    <label for="question-content">Conteúdo da Pergunta:</label>
+                    <textarea id="question-content" name="question-content" required></textarea>
+                </div>
+                <button type="submit">Enviar Pergunta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Atlética - Todos os direitos reservados</p>
+    </footer>
+    <script type="module" src="/codigo/assets/js/auth.js"></script>
+    <script type="module" src="/codigo/assets/js/forum.js"></script>
+</body>
