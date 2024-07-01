@@ -16,6 +16,7 @@ export const rules = {
     "Sport": {
         id: 'name',
         params: [
+            'pic',
             'name',
             'date',
             'start-time',
@@ -23,17 +24,10 @@ export const rules = {
             'local',
         ]
     },
-    "Question": {
-        id: 'question',
-        params: [
-            'question',
-            'user',
-            'date',
-        ]
-    },
     "New": {
         id: 'title',
         params: [
+            'pic',
             'title',
             'date',
             'description'
@@ -51,6 +45,7 @@ export const rules = {
     "Events": {
         id: 'id',
         params: [
+            'pic',
             'id',
             'title',
             'date',
