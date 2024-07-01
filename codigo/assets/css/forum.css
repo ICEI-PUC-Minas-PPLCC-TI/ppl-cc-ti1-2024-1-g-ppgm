@@ -9,7 +9,8 @@ body {
 header {
         background-color: #0D101E;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        flex-direction: row;
         padding: 12px 5%;
         color: #fff
 }
@@ -44,12 +45,19 @@ header {
     border-radius: 12px;
     font-family: Arial, Helvetica, sans-serif;
     display: none;
+
+    height: 20px;
 }
 .wrap{
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
+
+.wrap a {
+    height: 20px;
+}
+
 .botoes {
     display: flex;
     flex-direction: row; /* Alterando a direção dos botões para uma coluna em telas menores */
